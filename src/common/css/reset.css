@@ -1,0 +1,516 @@
+html {
+    font-family: "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+div,
+object,
+iframe,
+applet,
+object,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+address,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+progress {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-family: -apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif;
+}
+
+li {
+    list-style: none
+}
+
+html,
+body {
+    height: 100%;
+    font-size: 14px;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block
+}
+
+audio,
+canvas,
+progress,
+video {
+    display: inline-block
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+[hidden],
+template {
+    display: none
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none
+}
+
+a:active,
+a:hover {
+    outline: 0
+}
+
+abbr[title] {
+    border-bottom: 1px dotted
+}
+
+b,
+strong {
+    font-weight: bold
+}
+
+dfn {
+    font-style: italic
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+mark {
+    background: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sup {
+    top: -0.5em
+}
+
+sub {
+    bottom: -0.25em
+}
+
+img {
+    border: 0
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+figure {
+    margin: 1em 40px
+}
+
+hr {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 0
+}
+
+pre {
+    overflow: auto
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    outline: none;
+    line-height: normal
+}
+
+button {
+    overflow: visible;
+}
+
+button,
+select {
+    text-transform: none
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+button[disabled],
+html input[disabled] {
+    cursor: default
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+input {
+    line-height: normal
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    height: auto
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+legend {
+    border: 0;
+    padding: 0
+}
+
+textarea {
+    overflow: auto
+}
+
+optgroup {
+    font-weight: bold
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+td,
+th {
+    padding: 0
+}
+
+
+/*公用样式*/
+
+.f10 {
+    font-size: 10px
+}
+
+.f12 {
+    font-size: 12px
+}
+
+.f14 {
+    font-size: 14px
+}
+
+.f16 {
+    font-size: 16px
+}
+
+.f18 {
+    font-size: 18px
+}
+
+.f20 {
+    font-size: 20px
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+.bold {
+    font-weight: bold
+}
+
+.t_center {
+    text-align: center
+}
+
+.t_left {
+    text-align: left
+}
+
+.t_right {
+    text-align: right
+}
+
+.l {
+    float: left
+}
+
+.r {
+    float: right
+}
+
+.hide {
+    display: none
+}
+
+.g9 {
+    color: #999
+}
+
+.g6 {
+    color: #666
+}
+
+.ga8 {
+    color: #a8a8a8
+}
+
+.black {
+    color: #32353a
+}
+
+.blue {
+    color: #457ee3
+}
+
+.red {
+    color: #ff0000
+}
+
+.opacity10 {
+    opacity: 1
+}
+
+.opacity8 {
+    opacity: .8
+}
+
+.opacity6 {
+    opacity: .6
+}
+
+
+/*单行文本溢出*/
+
+.oneClamp {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+/*两行文本溢出*/
+
+.twoClamp {
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+    outline: none;
+}
+
+
+/* 清浮动 */
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0;
+}
+
+.contain_1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#app .el-radio__inner {
+    width: 18px;
+    height: 18px;
+    background: transparent;
+    border-color: rgba(95, 99, 110, 1);
+}
+
+#app .el-radio__input.is-checked .el-radio__inner {
+    border-color: rgba(95, 99, 110, 1);
+    background: transparent;
+}
+
+#app .el-radio__inner::after {
+    width: 10px;
+    height: 10px;
+    background-color: #FB931A;
+}
+
+#app .el-input--suffix .el-input__inner {
+    background-color: transparent;
+    border: 1px solid #282b3a;
+    color: #5C6376;
+}
+
+#app .el-select .el-input .el-select__caret {
+    color: #5C6376;
+}
+
+#app .wangyin_box .el-select {
+    width: 180px;
+}
+
+#app .huzhuan_box .el-select {
+    width: 350px;
+}
+
+#app .tibi_box .el-select {
+    width: 350px;
+}
+
+#app .base_box .el-select {
+    width: 350px;
+}
+
+#app .el-pagination button:disabled,
+#app .el-pagination .btn-next,
+.el-pagination .btn-prev,
+#app .el-pager li {
+    background-color: transparent;
+}
+
+#app .el-pagination .btn-next,
+.el-pagination .btn-prev,
+#app .el-pager li {
+    background-color: transparent !important;
+}
+
+#app .el-pager li.active {
+    background-color: #a03c51;
+    color: #fff;
+}
+
+#app .el-pagination button:disabled {
+    color: #000 !important;
+}
+
+#app .base_box .el-input--suffix .el-input__inner {
+    width: 350px;
+    cursor: pointer;
+}
+
+#app .distpicker-address-wrapper select {
+    background-color: transparent;
+    border: 1px solid #282b3a;
+    color: #5C6376;
+    padding-right: 0;
+}
+
+body {
+    cursor: url('../../assets/arrow.png'), auto;
+    cursor: url('../../assets/arrow.png'), -moz-zoom-out;
+}
